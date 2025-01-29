@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
-const API_ENDPOINT = "http://3.129.21.231";
+const API_ENDPOINT = "https://awpxvv5ibg.execute-api.us-east-2.amazonaws.com/";
 
 const useApiRequest = () => {
   const [isLoading, setIsLoading] = useState(false);
